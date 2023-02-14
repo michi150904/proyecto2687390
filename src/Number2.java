@@ -14,7 +14,7 @@ public class Number2 {
         else{
             System.out.println("El numero es negativo");
         }
-        lectura.close();0
-        
+        lectura.close();
+
         }
 }
