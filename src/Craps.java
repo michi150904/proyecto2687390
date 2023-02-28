@@ -6,6 +6,7 @@ public class Craps {
     int number1 = (int) (Math.random() * (7 - 1)) + 1;
     int number2 = (int) (Math.random() * (7 - 1)) + 1;
     more=number1+number2;
+    System.out.println("Las opciones de ganar son: Un par de unos en los dados, Un total de tres en los dados,Un total de once en los dados, Si se obtiene dos o doce en los dados, Un total de siete en los dados.");
     if (number1==1 && number2==1){
         System.out.println("Ganaste con un :"+number1+ " y un: "+number2+" en los dos dados");
     }
